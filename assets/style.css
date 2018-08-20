@@ -460,7 +460,8 @@ footer > div:not(.contact-banner) > .copyright > span {
 	font-size: 1.4rem;
 	margin: 0vh 0% 5vh 0%;
 }
-.contact-article > p > span {
+.contact-article > p > a {
+	text-decoration: none;
 	color: var(--color-primary);
 }
 
