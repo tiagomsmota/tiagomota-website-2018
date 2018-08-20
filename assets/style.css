@@ -327,6 +327,7 @@ footer > .contact-banner > div > h1 {
 }
 
 footer > .contact-banner > div > p {
+	letter-spacing: 0.5px;
 	margin-bottom: 0;
 }
 
@@ -444,20 +445,20 @@ footer > div:not(.contact-banner) > .copyright > span {
 	}
 	
 	article > .intro-section > .introduction-name > h1 {
-		top: -35%;
+		top: -15vh;
 		left: -10%;
 		font-size: 10rem;
 	}
 	
 	article > .intro-section > .introduction-name > h2 {
-		top: -40%;
+		top: -17vh;
 		left: 5%;
 		font-size: 3rem;
 	}
 	
 	article > .intro-section > div:not(.introduction-name) {
-		/* position: relative;
-		top: -8vh; */
+		position: relative;
+		top: -10vh;
 		padding: 5%;
 		font-size: 1.0rem;
 		text-align: center;
@@ -502,7 +503,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 		line-height: 30px;
 		margin-top: 0%;
 		letter-spacing: 0.2px;
-		font-size: 0.9rem;
+		font-size: 1rem;
 	}
 	
 	article > .characteristics-section > div > div:first-child {
