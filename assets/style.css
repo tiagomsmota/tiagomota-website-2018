@@ -77,14 +77,15 @@ header > div > h1 {
 	font-size: 3.5rem;
 	text-align: center;
 	color: var(--color-primary);
-	margin-bottom: 0%;
+	margin-bottom: 1rem;
+	font-weight: bold;
 }
 
 header > div > h2 {
 	font-weight: normal;
 	font-size: 1.4rem;
 	text-align: center;
-	margin-bottom: 20%;
+	margin-bottom: 35vh;
 	color: var(--color-neutral-grey);
 }
 
@@ -106,18 +107,20 @@ article > .intro-section > .introduction-name {
 
 article > .intro-section > .introduction-name > h1 {
 	position: relative;
-	top: -37%;
+	top: -20vh;
 	margin: 0;
 	font-size: 15rem;
 	color: var(--color-neutral-grey);
+	font-weight: bold;
 }
 
 article > .intro-section > .introduction-name > h2 {
 	position: relative;
-	top: -40%;
+	top: -20vh;
 	left: 35%;
 	margin: 0;
 	font-size: 3rem;
+	font-weight: bold;
 }
 
 article > .intro-section > div:not(.introduction-name) {
@@ -138,6 +141,7 @@ article > .characteristics-section > h1 {
 	color: var(--color-neutral-grey);
 	width: 65%;
 	margin: 0vh 0% 8vh 0%;
+	font-weight: bold;
 }
 
 article > .characteristics-section > div {
@@ -159,11 +163,12 @@ article > .characteristics-section > div > div {
 
 article > .characteristics-section > div > div > h2 {
 	position: relative;
-	top: -3vh;
+	top: -3.5vh;
 	left: -10%;
 	margin: 0%;
 	font-size: 2.7rem;
 	color: var(--color-primary);
+	font-weight: bold;
 }
 
 article > .characteristics-section > div > div > p {
@@ -211,9 +216,10 @@ article > .toolset-section {
 }
 
 article > .toolset-section > h1 {
-	margin: 0% 0% 8vh 0%;
+	margin: 0% 0% 3vh 0%;
 	font-size: 3.5rem;
 	color: var(--color-neutral-grey);
+	font-weight: bold;
 }
 
 article > .toolset-section > div {
@@ -260,7 +266,7 @@ article > .toolset-section > div > .toolset-icons > ul {
 	grid-template-rows: repeat(5, 1fr);
 	justify-items: center;
 	margin: 5vh 0%;
-	padding-right: 5%;
+	padding: 0% 5%;
 }
 
 article > .toolset-section > div > .toolset-icons > ul > li {
@@ -275,18 +281,18 @@ article > .projects-section {
 }
 
 article > .projects-section > div:first-of-type > h1 {
-	margin: 0%;
 	width: 70%;
 	font-size: 3.5rem;
 	color: var(--color-neutral-grey);
+	font-weight: bold;
 }
 
 article > .projects-section > div:first-of-type > h2 {
-	margin: 1.5vh 0%;
+	margin: 1rem 0% 1.5vh 0%;
 	width: 70%;
-	font-weight: normal;
 	text-align: left;
 	color: var(--color-neutral-grey);
+	font-size: 1.5rem;
 }
 
 article > .projects-section > .projects-list {
@@ -321,14 +327,14 @@ footer > .contact-banner {
 }
 
 footer > .contact-banner > div > h1 {
-	margin: 0;
 	font-size: 2.2rem;
 	color: var(--color-neutral-white);
+	font-weight: bold;
 }
 
 footer > .contact-banner > div > p {
-	letter-spacing: 0.02rem;
-	margin-bottom: 0;
+	letter-spacing: 0.01rem;
+	margin-top: 1rem;
 }
 
 footer > .contact-banner > .footer-contact-btn {
@@ -372,23 +378,24 @@ footer > div:not(.contact-banner) > a {
 	color: var(--color-primary);
 	text-decoration: none;
 	text-align: center;
+	margin-bottom: 3vh;
 }
 
 footer > div:not(.contact-banner) > p:not(.copyright) {
 	margin-bottom: 7%;
 	letter-spacing: 0.6px;
+	font-size: 1rem;
 }
 
 /* social */
 footer > div:not(.contact-banner) > .footer-social-list {
-	margin-right: 2%;
-	margin: 0% 2% 3% 0%;
+	margin: 0% 0% 3% 0%;
 }
 
 footer > div:not(.contact-banner) > .footer-social-list > li {
 	display: inline-block;
 	list-style: none;
-	margin-right: 20px;
+	margin: 0% 10px;
 	font-size: 1.3rem;
 	transition: all 0.2s ease-in-out;
 	background-color: var(--color-primary);
@@ -411,11 +418,12 @@ footer > div:not(.contact-banner) > .footer-social-list > li > a {
 /* copyright */
 footer > div:not(.contact-banner) > .copyright {
 	font-size: 0.80rem;
+	margin: 0vh 0% 3vh 0%;
 }
 
 footer > div:not(.contact-banner) > .copyright > span {
 	color: var(--color-neutral-white);
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 }
 
 
@@ -488,7 +496,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	/* HEADER */
 	/* hero */
 	header > div {
-		margin: 0% 5% 15vh 5%;
+		margin: 15vh 5% 0vh 5%;
 	}
 	
 	header > div > h1 {
@@ -509,19 +517,19 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	article > .intro-section > .introduction-name > h1 {
 		top: -14vh;
-		left: -10%;
+		/* left: -10%; */
 		font-size: 10rem;
 	}
 	
 	article > .intro-section > .introduction-name > h2 {
-		top: -16vh;
-		left: 5%;
+		top: -14vh;
+		left: 0%;
 		font-size: 3rem;
 	}
 	
 	article > .intro-section > div:not(.introduction-name) {
 		position: relative;
-		top: -10vh;
+		top: -8vh;
 		padding: 5%;
 		font-size: 1.0rem;
 		text-align: center;
@@ -574,16 +582,16 @@ footer > div:not(.contact-banner) > .copyright > span {
 	}
 	
 	article > .characteristics-section > div > div:nth-child(2) {
-		margin: 0% 0% 6vh 0%;
+		margin: 1.5vh 0% 6vh 0%;
 		top: 0%;
 	}
 	
 	article > .characteristics-section > div > div:nth-child(3) {
-		margin: 0% 0% 6vh 0%;
+		margin: 1.5vh 0% 6vh 0%;
 	}
 	
 	article > .characteristics-section > div > div:nth-child(4) {
-		margin: 0% 0% 6vh 0%;
+		margin: 1.5vh 0% 6vh 0%;
 		top: 0%;
 	}
 	
@@ -608,7 +616,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	article > .toolset-section > div > .toolset-text {
 		height: auto;
 		width: auto;
-		padding: 5% 5%;
+		padding: 5% 5% 10% 5%;
 		border-radius: 0%;
 	}
 	
@@ -618,14 +626,14 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	article > .toolset-section > div > .toolset-icons {
 		position: relative;
-		top: 0%;
+		top: -5vh;
 		left:0%;
-		z-index: -1;
+		z-index: 1;
 		height: auto;
 		width: auto;
 		margin: 0% 5%;
-		border-top-left-radius: 0%;
-		border-top-right-radius: 0%;
+		border-top-left-radius: 25px;
+		border-top-right-radius: 25px;
 	}
 	
 	article > .toolset-section > div > .toolset-icons > ul {
@@ -641,7 +649,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	/* projects section */
 	article > .projects-section {
-		margin: 10vh 10% 20vh 10%;
+		margin: 6vh 10% 20vh 10%;
 	}
 	
 	article > .projects-section > div:first-of-type > h1 {
@@ -664,8 +672,9 @@ footer > div:not(.contact-banner) > .copyright > span {
 	article > .projects-section > .projects-list > div {
 		width: auto;
 		height: auto;
-		margin-top: 3vh
+		margin-top: 4vh
 	}
+
 	/* FOOTER */
 	/* contact banner*/ 
 	footer > .contact-banner {
@@ -678,20 +687,25 @@ footer > div:not(.contact-banner) > .copyright > span {
 	}
 	
 	footer > .contact-banner > div > h1 {
-		font-size: 1.8rem;
+		font-size: 1.7rem;
 	}
 	
 	footer > .contact-banner > div > p {
 		margin-bottom: 3vh;
 		font-size: 0.9rem;
 	}
-	
+	footer > .contact-banner > .footer-contact-btn {
+		font-size: 0.9rem;
+	}
+
 	/* logo and caption */
 	footer > div:not(.contact-banner) > p:not(.copyright) {
 		margin-bottom: 10vh;
-		font-size: 0.85rem;
+		font-size: 0.75rem;
 	}
-	
+	footer > div:not(.contact-banner) > a {
+		margin-bottom: 3vh;
+	}
 	/* social */
 	footer > div:not(.contact-banner) > .footer-social-list {
 		margin-right: 15vw;
@@ -711,55 +725,17 @@ footer > div:not(.contact-banner) > .copyright > span {
 	/* copyright */
 	footer > div:not(.contact-banner) > .copyright {
 		font-size: 0.60rem;
+		margin: 2vh 0% 3vh 0%;
 	}
 	
 	footer > div:not(.contact-banner) > .copyright > span {
 		font-size: 0.6rem;
 	}
 }
-/* mobile - orientation: landscape */
-@media (max-width: 768px) and (orientation: landscape) {
-	/* HEADER */
-	/* navigation */
-	header > nav {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin:  3vh 10% 0% 10%;
-	}
-
-/* ARTICLE */
-	/* intro section*/
-	article > .intro-section > .introduction-name > h1 {
-		top: -28vh;
-	}
-	
-	article > .intro-section > .introduction-name > h2 {
-		top: -30vh;
-	}
-	
-	article > .intro-section > div:not(.introduction-name) {
-		top: -20vh;
-	}
-	
-	/* characteristics section */
-	article > .characteristics-section > div > div > h2 {
-		top: -8vh;
-	}
-	
-	article > .characteristics-section > div > div > p {
-		top: -5vh;
-	}
-}
-
 /* tablet - from 769px to 1023px */
 @media (min-width: 769px) and (max-width: 1023px) {
 	/* HEADER */
 	/* hero */
-	header > div {
-		margin: 0% 5% 15vh 5%;
-	}
-	
 	header > div > h1 {
 		font-size: 3.3rem;
 	}
@@ -777,13 +753,13 @@ footer > div:not(.contact-banner) > .copyright > span {
 	}
 	
 	article > .intro-section > .introduction-name > h1 {
-		top: -17vh;
-		left: -10%;
+		top: -16vh;
+		/* left: -10%; */
 		font-size: 12rem;
 	}
 	
 	article > .intro-section > .introduction-name > h2 {
-		top: -18vh;
+		top: -15vh;
 		left: 0%;
 		font-size: 3rem;
 	}
@@ -821,7 +797,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	article > .characteristics-section > div > div > h2 {
 		position: relative;
-		top: -3.2vh;
+		top: -3.5vh;
 		left: -8%;
 		margin: 0%;
 		font-size: 2rem;
@@ -868,7 +844,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	article > .toolset-section > h1 {
 		margin: 0% 5% 1% 5%;
-		font-size: 2.3rem;
+		font-size: 2.7rem;
 	}
 	
 	article > .toolset-section > div {
@@ -907,7 +883,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	article > .toolset-section > div > .toolset-icons > ul {
 		justify-items: center;
 		margin-right: 0%;
-		padding: 0% 5%;
+		padding: 0vh 3%;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		grid-template-rows: repeat(3, 1fr);
 	}
@@ -924,14 +900,14 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	article > .projects-section > div:first-of-type > h1 {
 		width: auto;
-		font-size: 2.3rem;
+		font-size: 2.7rem;
 	}
 	
 	article > .projects-section > div:first-of-type > h2 {
-		margin: 1.5vh 0%;
+		margin: 1.5vh 0% 2vh 0%;
 		width: auto;
 		text-align: left;
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 	}
 	
 	article > .projects-section > .projects-list {
@@ -946,27 +922,36 @@ footer > div:not(.contact-banner) > .copyright > span {
 		line-height: 15vh;
 		margin-top: 3vh
 	}
+
 	/* FOOTER */
 	/* contact banner*/ 
 	footer > .contact-banner {
 		top: -6vh;
-		flex-direction: column;
+		flex-direction: row;
 		align-items: center;
-		text-align: center;
+		text-align: left;
 		margin: 0% 5%;
-		padding: 3vh 5%;
+		padding: 5vh 5%;
 	}
 	
 	footer > .contact-banner > div > h1 {
-		font-size: 1.8rem;
+		font-size: 1.7rem;
 	}
 	
 	footer > .contact-banner > div > p {
-		margin-bottom: 3vh;
+		margin: 2vh 0% 0vh 0%;
+		max-width: 90%;
 		font-size: 0.9rem;
 	}
-	
+	footer > .contact-banner > .footer-contact-btn {
+		font-size: 0.9rem;
+		padding: 10px 15px;
+	}
+
 	/* logo and caption */
+	footer > div:not(.contact-banner) > a {
+		margin-bottom: 3vh;
+	}
 	footer > div:not(.contact-banner) > p:not(.copyright) {
 		margin-bottom: 10vh;
 		font-size: 0.85rem;
@@ -990,21 +975,18 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	/* copyright */
 	footer > div:not(.contact-banner) > .copyright {
-		font-size: 0.60rem;
+		font-size: 0.50rem;
+		margin-bottom: 3vh;
 	}
 	
 	footer > div:not(.contact-banner) > .copyright > span {
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 	}
 }
 /* desktop - from 1024px to 1215px */
 @media (min-width: 1024px) and (max-width: 1215px) {
 /*---- HEADER */
 	/* hero */
-	header > div {
-		margin: 0% 5% 15vh 5%;
-	}
-	
 	header > div > h1 {
 		font-size: 3.4rem;
 	}
@@ -1022,13 +1004,13 @@ footer > div:not(.contact-banner) > .copyright > span {
 	}
 	
 	article > .intro-section > .introduction-name > h1 {
-		top: -14vh;
+		top: -16vh;
 		left: 0%;
 		font-size: 12rem;
 	}
 	
 	article > .intro-section > .introduction-name > h2 {
-		top: -15vh;
+		top: -16vh;
 		left: 20%;
 		font-size: 3rem;
 	}
@@ -1044,7 +1026,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	/* characteristics section */
 	article > .characteristics-section {
-		margin: 10vh 10% 0vh 10%;
+		margin: 13vh 10% 0vh 10%;
 	}
 	
 	article > .characteristics-section > h1 {
@@ -1067,7 +1049,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	article > .characteristics-section > div > div > h2 {
 		position: relative;
-		top: -3.2vh;
+		top: -4vh;
 		left: -8%;
 		margin: 0%;
 		font-size: 2.3rem;
@@ -1112,7 +1094,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	}
 
 	article > .toolset-section > h1 {
-		margin: 0% 0% 1vh 0%;
+		margin: 0% 0% 1rem 0%;
 		font-size: 3rem;
 	}
 
@@ -1151,7 +1133,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 
 	article > .toolset-section > div > .toolset-icons > ul {
 		margin: 5% 0%;
-		padding-right: 5%;
+		padding-left: 7%;
 		justify-items: center;
 	}
 
@@ -1173,7 +1155,8 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	article > .projects-section > div:first-of-type > h2 {
 		text-align: left;
-		font-size: 1.3rem;
+		font-size: 1.5rem;
+		margin-top: 1rem;
 	}
 	
 	article > .projects-section > .projects-list > div {
@@ -1212,7 +1195,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	article > .intro-section > .introduction-name > h1 {
 		position: relative;
-		top: -21vh;
+		top: -19vh;
 		margin: 0;
 		font-size: 15rem;
 		color: var(--color-neutral-grey);
@@ -1220,7 +1203,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	article > .intro-section > .introduction-name > h2 {
 		position: relative;
-		top: -23vh;
+		top: -19vh;
 		left: 25%;
 		margin: 0;
 		font-size: 3.3rem;
@@ -1245,7 +1228,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 
 	article > .characteristics-section > div > div > h2 {
 		position: relative;
-		top: -4vh;
+		top: -3.5vh;
 		left: -10%;
 		margin: 0%;
 		font-size: 2.7rem;
@@ -1296,7 +1279,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	}
 
 	article > .toolset-section > h1 {
-		margin: 0% 0% 8vh 0%;
+		margin: 0% 0% 5vh 0%;
 	}
 
 	article > .toolset-section > div {
@@ -1330,8 +1313,8 @@ footer > div:not(.contact-banner) > .copyright > span {
 	}
 
 	article > .toolset-section > div > .toolset-icons > ul {
-		margin: 5% 0%;
-		padding-right: 5%;
+		margin: 5vh 0%;
+		padding-left: 8%;
 		justify-items: center;
 	}
 
@@ -1347,16 +1330,14 @@ footer > div:not(.contact-banner) > .copyright > span {
 	}
 	
 	article > .projects-section > div:first-of-type > h1 {
-		margin: 0%;
 		width: 70%;
 		font-size: 3.5rem;
 		color: var(--color-neutral-grey);
 	}
 	
 	article > .projects-section > div:first-of-type > h2 {
-		margin: 1.5vh 0%;
+		margin: 1rem 0% 2rem 0%;
 		width: 70%;
-		font-weight: normal;
 		text-align: left;
 		color: var(--color-neutral-grey);
 	}
@@ -1426,6 +1407,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 		color: var(--color-primary);
 		text-decoration: none;
 		text-align: center;
+		margin-bottom: 1rem;
 	}
 	
 	footer > div:not(.contact-banner) > p:not(.copyright) {
@@ -1435,14 +1417,13 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	/* social */
 	footer > div:not(.contact-banner) > .footer-social-list {
-		margin-right: 2%;
-		margin: 0% 2% 3% 0%;
+		margin: 0% 0% 3% 0%;
 	}
 	
 	footer > div:not(.contact-banner) > .footer-social-list > li {
 		display: inline-block;
 		list-style: none;
-		margin-right: 20px;
+		margin: 0% 10px;
 		font-size: 1.3rem;
 		transition: all 0.2s ease-in-out;
 		background-color: var(--color-primary);
@@ -1464,12 +1445,13 @@ footer > div:not(.contact-banner) > .copyright > span {
 	
 	/* copyright */
 	footer > div:not(.contact-banner) > .copyright {
-		font-size: 0.80rem;
+		font-size: 0.70rem;
+		margin: 5vh 0% 3vh 0%;
 	}
 	
 	footer > div:not(.contact-banner) > .copyright > span {
 		color: var(--color-neutral-white);
-		font-size: 0.8rem;
+		font-size: 0.7rem;
 	}
 }
 
