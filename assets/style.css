@@ -717,6 +717,41 @@ footer > div:not(.contact-banner) > .copyright > span {
 		font-size: 0.6rem;
 	}
 }
+/* mobile - orientation: landscape */
+@media (max-width: 768px) and (orientation: landscape) {
+	/* HEADER */
+	/* navigation */
+	header > nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin:  3vh 10% 0% 10%;
+	}
+
+/* ARTICLE */
+	/* intro section*/
+	article > .intro-section > .introduction-name > h1 {
+		top: -28vh;
+	}
+	
+	article > .intro-section > .introduction-name > h2 {
+		top: -30vh;
+	}
+	
+	article > .intro-section > div:not(.introduction-name) {
+		top: -20vh;
+	}
+	
+	/* characteristics section */
+	article > .characteristics-section > div > div > h2 {
+		top: -8vh;
+	}
+	
+	article > .characteristics-section > div > div > p {
+		top: -5vh;
+	}
+}
+
 /* tablet - from 769px to 1023px */
 @media (min-width: 769px) and (max-width: 1023px) {
 	/* HEADER */
