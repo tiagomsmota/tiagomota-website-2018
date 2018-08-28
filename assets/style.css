@@ -289,6 +289,11 @@ article > .toolset-section > div > .toolset-icons > ul > li {
 	margin: 2.5vh 0%;
 }
 
+article > .toolset-section > div > .toolset-icons > ul > li > img {
+	width: 4rem;
+}
+
+
 /* projects section */
 article > .projects-section {
 	margin: 20vh 10% 20vh 10%;
@@ -678,6 +683,10 @@ footer > div:not(.contact-banner) > .copyright > span {
 		margin: 1.5vh 0%;
 	}
 	
+	article > .toolset-section > div > .toolset-icons > ul > li > img {
+		width: 3.5rem;
+	}
+
 	/* projects section */
 	article > .projects-section {
 		margin: 6vh 10% 20vh 10%;
@@ -940,6 +949,10 @@ footer > div:not(.contact-banner) > .copyright > span {
 		margin: 2vh 0%;
 	}
 	
+	article > .toolset-section > div > .toolset-icons > ul > li > img {
+		width: 3.5rem;
+	}
+
 	/* projects section */
 	article > .projects-section {
 		margin: 10vh 5% 15vh 5%;
