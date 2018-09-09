@@ -340,6 +340,10 @@ article > .projects-section > .projects-list > div:hover {
 	transform: scale(1.1);
 }
 
+article > .projects-section > .projects-list > div > img {
+	display: block; 
+	max-width: 75vw;
+}
 
 /* FOOTER */
 /* contact banner*/ 
