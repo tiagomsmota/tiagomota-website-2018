@@ -342,7 +342,7 @@ article > .projects-section > .projects-list > div:hover {
 
 article > .projects-section > .projects-list > div > img {
 	display: block; 
-	max-width: 75vw;
+	width: 100%;
 }
 
 /* FOOTER */
