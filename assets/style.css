@@ -411,7 +411,7 @@ footer {
 }
 
 footer > div:not(.contact-banner) {
-	display: flex;
+	display: flex; 
 	flex-direction: column;
 	justify-content: space-around;
 }
