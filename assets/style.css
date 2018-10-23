@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat:400,700|Rubik:400,700|Montserrat:400');
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700|Rubik:400,700|Montserrat:400|Inconsolata:400|PT+Sans+Narrow:400');
 
 /*			COLOR PALLETTE
 ---------------------------------------
@@ -587,6 +587,12 @@ footer > div:not(.contact-banner) > .copyright > span {
 	font-weight: 700;
 }
 
+.project-article > .project-description > div > p > a {
+	text-decoration: underline;
+	font-weight: bold;
+	color: inherit;
+}
+
 .project-article > .project-design {
 	margin: 10% 0%;
 }
@@ -614,12 +620,13 @@ footer > div:not(.contact-banner) > .copyright > span {
 .project-design-choices {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	margin: 0% 5%;
 }
 
 .project-design-choices > .project-design-choices-type {
 	font-family: Montserrat, monospace;
-	/* margin: 5% 10% 5% 10%; */
+	margin: 5% 2.5% 0% 2.5%;
 	align-self: center;
 }
 
@@ -654,6 +661,7 @@ footer > div:not(.contact-banner) > .copyright > span {
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
+	border: 2px solid #f1f1f1;
 }
 
 .project-design-choices > .project-design-choices-color > div > div {
@@ -1094,11 +1102,11 @@ footer > div:not(.contact-banner) > .copyright > span {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
-		margin: 0% 5%;
+		margin: 10% 5%;
 	}
 	.project-design-choices > .project-design-choices-type {
 		font-family: Montserrat, monospace;
-		margin: 15% 10%;
+		margin: 5% 10%;
 		align-self: center;
 	}
 	.project-design-choices > .project-design-choices-type > p:first-of-type {
